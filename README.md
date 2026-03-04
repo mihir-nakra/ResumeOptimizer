@@ -58,19 +58,3 @@ poetry run uvicorn api.main:app --reload --port 8000
 # Start monitoring stack
 docker-compose up -d grafana prometheus
 ```
-
-## Project Status
-
-**Current Phase**: Initial Setup
-- [ ] Phase 1: Build and test individual LangGraph agents
-- [ ] Phase 2: Set up Kafka for agent communication
-- [ ] Phase 3: Integrate OpenTelemetry monitoring
-- [ ] Phase 4: Set up Grafana dashboards
-- [ ] Phase 5: Containerize with Docker
-- [ ] Phase 6: Deploy to AWS EC2
-
-## Goals
-
-- Achieve 30%+ boost in ATS job match scores
-- Provide intelligent resume optimization suggestions
-- Generate relevant interview questions from job descriptions
